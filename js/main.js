@@ -10,7 +10,7 @@ function getPicture() {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-      document.querySelector(".date").textContent = data.date;
+      document.querySelector(".date").textContent = date;
       document.querySelector(".description").textContent = data.explanation;
       document.querySelector("img").src = data.hdurl;
       document.querySelector("h2").textContent = data.title;
