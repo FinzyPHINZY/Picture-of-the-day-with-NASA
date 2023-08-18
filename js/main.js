@@ -2,6 +2,7 @@
 
 document.querySelector("input").addEventListener("click", getPicture);
 
+
 function getPicture() {
   const date = document.querySelector("input").value;
   fetch(
